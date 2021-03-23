@@ -1,0 +1,194 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+body{
+    background-color:#f7f1e3
+}
+header{
+    width: 100%;
+    background-color: #05c46b;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+.head span{
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+    background-color: #05c46b;
+    position: sticky;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+    align-content: auto;
+}
+
+nav ul li{
+    flex: 1 1 auto;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+}
+nav ul .reseau{
+    display: flex;
+}
+nav ul .reseau .facebook:hover{
+    color:  #3b5998;
+}
+nav ul .reseau .insta:hover{
+    color:#F77737;
+}
+nav ul .reseau .you:hover{
+    color:  red;
+}
+nav ul .search{
+    font-size: 25px;
+}
+nav ul input{
+    border-radius: 5px;
+    height: 35px;
+}
+nav ul i{
+        padding-top: 10px;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color:black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: white;
+    border-bottom: 2px solid #05c46b ;
+    background-color: #05c46b;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: #05c46b;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: flex;
+    flex-flow: column wrap;
+}
+.sous li{
+    flex: 1 1 auto;
+    text-align: center;
+    color: green;
+    background-color:#05c46b;
+    border-radius: 5px;
+    
+}
+.sous li p{
+    color: black;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+    font-weight: 200;
+    color: black;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+    color: white;
+    background-color: #05c46b;
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+.about2{
+    display: flex;
+    padding: 15px 50px 50px 50px;
+    justify-content: space-evenly;
+}
+.about2 .bras ul i{
+    color: #05c46b;
+}
+.about2 .bras ul li{
+    font-size: 40px;
+    color: rgb(3, 3, 70);
+    display: flex;
+    padding-right: 20px;
+}
+.about2 .bras li span{
+    font-size: 20px;
+    color:rgb(48, 48, 66) ;
+}
+.about2 .bras span{
+    text-align: justify;
+}
+.about2 .form input{
+    border-radius: 5px;
+    height: 10%;
+}
+.about2 .form textarea{
+    border-radius: 5px;
+    border: solid 1px;
+}
+.about2 .form a{
+    color: white ;
+    background-color:  #05c46b;
+    font-size: 30px;
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+}
+.about2 .form .message:hover{
+    background: none;
+    color: #05c46b;
+    background-color: white;
+}
+/**************************************************************************************************/
+
+.end{
+    padding: 20px 0px 20px 0px;
+    background-color: #05c46b;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    height: 20%;
+    margin-top: 200px;
+
+}
+.end .fin span{
+    color:wheat;
+}
+.imp{
+    margin: 10px auto;
+}
+.importance 
+{
+ text-align: center;
+ font-size: 30px;
+ color: dimgray;
+}
+.pro{
+    margin: 10px auto;
+}
+.production{
+    text-align: center;
+    font-size: 40px;
+    color: dimgrey;
+}
